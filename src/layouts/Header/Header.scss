@@ -1,0 +1,46 @@
+.header-component {
+  width: 100vw;
+
+  .head-sec {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+
+    .head-nav{
+        background-color: white;
+        align-items: center;
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        max-width: 100%;
+
+        .left{
+            .main-par{
+                font-size: 25px;
+                color: #162232;
+                font-family: "sansbold";
+            }
+        }
+
+        .right{
+            width: 213px;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    font-family: "sansregular";
+                    font-size: 18px;
+                    opacity: 50%;
+                    cursor: pointer;
+
+                    &:hover{
+                        opacity: 1;
+                        transition-duration: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
